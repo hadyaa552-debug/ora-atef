@@ -1,7 +1,7 @@
 "use client";
 import{useEffect}from"react";
-const PI="+201029944403",PD="0102 994 4403";
-const WU=`https://wa.me/201029944403?text=${encodeURIComponent("مرحباً، لسه سجلت في سيلفر ساندس أورا — Silver Sands ORA")}`;
+const PI="+201009260259",PD="0100 926 0259";
+const WU=`https://wa.me/201009260259?text=${encodeURIComponent("مرحباً، لسه سجلت في سيلفر ساندس أورا — Silver Sands ORA")}`;
 export default function ThankYou(){
   useEffect(()=>{
     // ══ Google Ads Conversion ══

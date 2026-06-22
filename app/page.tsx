@@ -2,8 +2,8 @@
 import{useState,useEffect,useRef,FormEvent}from"react";
 import{useRouter}from"next/navigation";
 
-const P="01029944403",PD="0102 994 4403",PI="+201029944403",WN="201029944403";
-const WK="1517c55f-0ea9-4648-9551-a0e58bfe0d06";
+const P="01009260259",PD="0100 926 0259",PI="+201009260259",WN="201009260259";
+const WK="325afe41-583c-4a59-83c5-17939346616e";
 const DEADLINE=new Date("2026-06-29T23:59:59");
 
 function trackCall(l="call"){if(typeof window!=="undefined"&&(window as any).gtag)(window as any).gtag("event","click_call",{event_category:"contact",event_label:l});}
