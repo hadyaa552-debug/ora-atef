@@ -146,3 +146,9 @@ body.p-on{overflow:hidden}
 .bi-sec{direction:rtl;text-align:right}
 .bi-sec .proj-head{direction:rtl}
 .bi-en{direction:ltr;text-align:left;margin-top:8px;font-style:italic;color:rgba(255,255,255,.45);font-size:12px}
+
+/* LANG SWITCH */
+.lang-btn{position:fixed;top:72px;left:20px;z-index:95;display:flex;background:var(--color-card);border:1px solid var(--color-border);border-radius:50px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.3)}
+.lang-opt{padding:8px 16px;font-size:11px;font-weight:700;cursor:pointer;border:none;background:transparent;color:var(--color-muted);font-family:var(--font-body);transition:.2s}
+.lang-opt.on{background:var(--color-gold);color:#000}
+@media(max-width:768px){.lang-btn{top:68px;left:14px}.lang-opt{padding:6px 12px;font-size:10px}}
